@@ -80,6 +80,11 @@
                   <span class="error"><?= error("name") ?></span>
                 </div>
                 <div class="form-field">
+                  <label for="subject">Subject:</label>
+                  <input type="subject" name="subject" id="name" />
+                  <span class="error"><?= error("subject") ?></span>
+                </div>
+                <div class="form-field">
                   <label for="email">Email:</label>
                   <input type="text" name="email" id="email" value="<?= old("email") ?>" />
                   <span class="error"><?= error("email") ?></span>
